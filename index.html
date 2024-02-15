@@ -12,13 +12,13 @@
 
     <body>
         <div class="card text-center">
-            <div class="card-header">Choose a button!</div>
+            <div class="card-header">Please insert the number of buttons</div>
             <div class="card-body">
-                <button type="button" class="btn btn-info" onclick="checkButton()">1</button>
-                <button type="button" class="btn btn-info" onclick="checkButton()">2</button>
-                <button type="button" class="btn btn-info" onclick="checkButton()">3</button>
+              <input type="number" id="noButtons">
+              <button id="getNoButtons" type="button" class="btn btn-success" onclick="generateButtons()">OK</button>
             </div>
         </div>
+        <div id="generateButtonsDiv"></div>
         <script src="script.js"></script>
     </body>
 </html>
