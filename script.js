@@ -4,7 +4,7 @@ function getWinningButton() {
     return winningBtn;
 }
 
-checkButton = function () {
+function checkButton() {
     let winningBtn = getWinningButton();
     if (this.Id === winningBtn) {
         alert(`Winning button! Congratulations!!`);
